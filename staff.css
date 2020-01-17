@@ -1,0 +1,75 @@
+#wrapperformLogin{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border-color: blue;
+  height: 60px;
+  padding: 10px;
+  width: 50%;
+  float: right;
+  
+}
+  #wrapperformLogin1{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border-color: blue;
+  height: 60px;
+  padding: 10px;
+  width: 50%;
+  float: left;}
+
+   #wrapperformLogin2{
+  border-radius: 5px;
+  border: solid;
+  background-color: #f2f2f2;
+  border-color: grey;
+  padding: 10px;
+  width: 49.5%;
+  height: 500px;
+  margin-top: 10px;
+float: left;}
+
+   #wrapperformLogin3{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border:solid;
+  height: 500px;
+  border-color: grey;
+  padding: 10px;
+  width: 49.5%;
+
+  float: right;
+  margin-top: 10px
+
+
+ 
+}
+label[type="text"],label
+{
+width: 40%;
+vertical-align: top;
+}
+
+input[type=select], select
+{
+  width: 50%;
+  padding: 7px;
+   border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+  input[type=text], textarea{
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+@media screen and (max-width: 700px) {
+  .col-25, .col-75,#wrapperformLogin1,#wrapperformLogin2,#wrapperformLogin3,#wrapperformLogin {
+    width: 100%;
+    margin-top: 2px;
+    height: auto;
+
